@@ -23,8 +23,8 @@ WORKDIR /culip/code/build
 RUN /bin/bash -c "cmake -DCMAKE_BUILD_TYPE=Release -DCUDA_SDK_ROOT_DIR=/culip/cuda-samples .. && make || make"
 
 # download benchmark data from IA3
-#ADD http://download.hrz.tu-darmstadt.de/media/FB20/GCC/project_files/culip/ia3_2018/ia3-2018-data.zip /culip/data
-#RUN cd /culip/data && unzip ia3-2018-data.zip && rm ia3-2018-data.zip
+ADD http://download.hrz.tu-darmstadt.de/media/FB20/GCC/project_files/culip/ia3_2018/ia3-2018-data.zip /culip/data
+RUN cd /culip/data && unzip ia3-2018-data.zip && rm ia3-2018-data.zip
 
 # add volume to interface with host data
-#VOLUME /culip/external
+VOLUME /culip/external
