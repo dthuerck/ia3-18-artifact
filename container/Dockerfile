@@ -27,4 +27,4 @@ ADD http://download.hrz.tu-darmstadt.de/media/FB20/GCC/project_files/culip/ia3_2
 RUN cd /culip/data && unzip ia3-2018-data.zip && rm ia3-2018-data.zip
 
 # add volume to interface with host data
-VOLUME /culip/external
+WORKDIR /culip/external

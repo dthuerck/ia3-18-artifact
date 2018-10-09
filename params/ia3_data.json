@@ -1,0 +1,121 @@
+{
+"qpband" : {
+    "precision" : 1,
+    "pivot_method" : 1,
+    "fill_level" : 0,
+    "fill_factor" : 4.0,
+    "threshold" : 1e-4
+    },
+"mario001" : {
+    "precision" : 1,
+    "pivot_method" : 2,
+    "fill_level" : 3,
+    "fill_factor" : 8.0,
+    "threshold" : 1e-8
+    },
+"bab5" : {
+    "precision" : 1,
+    "pivot_method" : 2,
+    "fill_level" : 1,
+    "fill_factor" : 8.0,
+    "threshold" : 1e-8
+    },
+"c-72" : {
+    "precision" : 1,
+    "pivot_method" : 2,
+    "fill_level" : 1,
+    "fill_factor" : 8.0,
+    "threshold" : 1e-8
+    },
+"Si10H16" : {
+    "precision" : 1,
+    "pivot_method" : 2,
+    "fill_level" : 3,
+    "fill_factor" : 4.0,
+    "threshold" : 1e-4
+    },
+"boyd1" : {
+    "precision" : 1,
+    "pivot_method" : 1,
+    "fill_level" : 0,
+    "fill_factor" : 4.0,
+    "threshold" : 1e-4
+    },
+"Lin" : {
+    "precision" : 1,
+    "pivot_method" : 1,
+    "fill_level" : 1,
+    "fill_factor" : 8.0,
+    "threshold" : 1e-8
+    },
+"map06" : {
+    "precision" : 1,
+    "pivot_method" : 1,
+    "fill_level" : 0,
+    "fill_factor" : 4.0,
+    "threshold" : 1e-4
+    },
+"bley_xl1" : {
+    "precision" : 1,
+    "pivot_method" : 2,
+    "fill_level" : 1,
+    "fill_factor" : 8.0,
+    "threshold" : 1e-4
+    },
+"c-big" : {
+    "precision" : 1,
+    "pivot_method" : 1,
+    "fill_level" : 1,
+    "fill_factor" : 8.0,
+    "threshold" : 1e-8
+    },
+"co-100" : {
+    "precision" : 0,
+    "pivot_method" : 2,
+    "fill_level" : 2,
+    "fill_factor" : 4.0,
+    "threshold" : 1e-8
+    },
+"bab3" : {
+    "precision" : 1,
+    "pivot_method" : 2,
+    "fill_level" : 1,
+    "fill_factor" : 8,
+    "threshold" : 1e-8
+    },
+"G3_circuit" : {
+    "precision" : 1,
+    "pivot_method" : 1,
+    "fill_level" : 1,
+    "fill_factor" : 8.0,
+    "threshold" : 1e-8
+    },
+"BenElechi1" : {
+    "precision" : 1,
+    "pivot_method" : 1,
+    "fill_level" : 4,
+    "fill_factor" : 8.0,
+    "threshold" : 1e-8
+    },
+"af_shell7" : {
+    "precision" : 1,
+    "pivot_method" : 2,
+    "fill_level" : 4,
+    "fill_factor" : 8.0,
+    "threshold" : 1e-8
+    },
+"nlpkkt80" : {
+    "precision" : 0,
+    "pivot_method" : 1,
+    "fill_level" : 0,
+    "fill_factor" : 8.0,
+    "threshold" : 1e-4
+    },
+"nlpkkt120" : {
+    "precision" : 1,
+    "pivot_method" : 2,
+    "fill_level" : 0,
+    "fill_factor" : 8.0,
+    "threshold" : 1e-8
+    }
+}
