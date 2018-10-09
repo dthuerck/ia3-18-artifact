@@ -4,7 +4,7 @@ import json
 
 # define CLI interface
 aparser = argparse.ArgumentParser(description='Artifact runner for our IA3 2018 paper.')
-aparser.add_argument('mode', action='store', choices=['setup', 'replicate', 'solve', 'stats'])
+aparser.add_argument('mode', action='store', choices=['setup', 'clean', 'replicate', 'solve', 'stats'])
 aparser.add_argument('--matrix', '-s', action='store', default='boyd1', required=False)
 aparser.add_argument('--precision', '-p', action='store', type=int, default=1, required=False) 
 aparser.add_argument('--pivot_method', '-m', action='store', type=int, default=2, required=False)
@@ -31,6 +31,11 @@ if(args.mode == 'setup'):
 
     docker_path = cwd + '/' + 'container'
     os.system('docker build -t culip:ia3-18-artifact ' + docker_path)
+
+elif(args.mode == 'clean'):
+    print('Removing docker container...')
+
+    os.system('docker image rm -f culip:ia3-18-artifact')
 
 elif(args.mode == 'replicate'):
     print('Replicating experiment with matrix %s...' % args.matrix);
