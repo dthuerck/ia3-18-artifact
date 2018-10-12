@@ -74,7 +74,7 @@ elif(args.mode == 'solve'):
 elif(args.mode == 'stats'):
     print('Generating fill-instats for matrix %s...' % args.matrix)
 
-    if not args.matrix in matrix_data.keys():
+    if not args.matrix in ia3_params.keys():
         print('Matrix %s is not part of the IA3 2018 test set, exiting...' % args.matrix)
 
     base_path = '/culip/data/' + args.matrix
